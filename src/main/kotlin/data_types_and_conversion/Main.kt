@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
         a multiline 
         text.
     """.trimIndent()
-    val booleanValue = false
+    val booleanValue = false.and(true).or(false)
     val intArray = intArrayOf(1, 2, 3)
 
     list.add(x)
@@ -27,6 +27,7 @@ fun main(args: Array<String>) {
     list.add(c)
     list.add(ch)
     list.add(escapedString)
+    list.add(escapedString[5])
     list.add(rowString)
     list.add(booleanValue)
     list.add(intArray)
